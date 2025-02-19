@@ -1,0 +1,16 @@
+:root {
+  --background: hsl(184, 91%, 17%);
+  --black: #000;
+  --white: #fff;
+  --blue: #3b82f6;
+  --grey: #3f3f3f;
+}
+* {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #e6f4ff;
+}

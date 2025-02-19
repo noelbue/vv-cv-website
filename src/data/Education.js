@@ -1,0 +1,121 @@
+import Education_BarIlan_University from "../images/Education_Bar-Ilan_University.png";
+import Education_Belarusian_State_University from "../images/Education_Belarusian_State_University.png";
+import Education_Israel_Tech_Challenge_ITC from "../images/Education_Israel_Tech_Challenge_ITC.png";
+import Education_TeachMeSkills from "../images/Education_TeachMeSkills.png";
+import goethe from "../images/goethe.png";
+import GoetheCertificate_2 from "../downloads/Goethe-Certificate_2.pdf";
+import GoetheCertificate from "../downloads/Goethe-Certificate.pdf";
+import Certificate_Data_Scientist_Viktoriya_Voronchuk from "../downloads/Certificate_Data_Scientist_Viktoriya_Voronchuk.pdf";
+
+export const Education = [
+  {
+    id: 1,
+    src: Education_BarIlan_University,
+    href: "https://www.biu.ac.il/",
+    company: "Bar-Ilan University",
+    location: "Tel-Aviv, Israel",
+    date: "Mar 2023 – Aug 2024",
+    position: "International Master of Business Administration (MBA)",
+    details: [
+      "Accounting",
+      "Business Communication",
+      "Business Ethics",
+      "Business Strategy",
+      "Data Analytics",
+      "Economics",
+      "Finance",
+      "Leadership",
+      "Marketing",
+      "Operations",
+    ],
+  },
+  {
+    id: 2,
+    src: goethe,
+    href: "https://www.goethe.de/",
+    company: "Goethe Institut",
+    location: "Munich, Germany",
+    date: "Jan 2024 – Feb 2024",
+    position: "Second German Language Course (A2)",
+    details: [
+      "Attended German Language Course",
+      "Full scope of the course: 40 teaching units of 45 minutes",
+      "Completed the course with great success.",
+    ],
+    button: {
+      href: GoetheCertificate_2,
+      text: "Download Certificate",
+      icon: "fa fa-file-pdf-o",
+      download: "Goethe-Certificate-2.pdf",
+    },
+  },
+  {
+    id: 3,
+    src: goethe,
+    href: "https://www.goethe.de/",
+    company: "Goethe Institut",
+    location: "Munich, Germany",
+    date: "Nov 2023 – Dec 2023",
+    position: "First German Language Course (A2)",
+    details: [
+      "Attended German Language Course",
+      "Full scope of the course: 40 teaching units of 45 minutes",
+      "Completed the course with great success.",
+    ],
+    button: {
+      href: GoetheCertificate,
+      text: "Download Certificate",
+      icon: "fa fa-file-pdf-o",
+      download: "Goethe-Certificate.pdf",
+    },
+  },
+  {
+    id: 4,
+    src: Education_TeachMeSkills,
+    href: "https://teachmeskills.by/",
+    company: "TeachMeSkills",
+    location: "Israel",
+    date: "Mar 2021 – Dec 2022",
+    position: "Data-Scientist-Course",
+    details: [
+      "Analyzing large datasets across multiple internal sources using varying tools",
+      "Python: pandas, numpy, matplotlib, sklearn.metrics, seaborn",
+      "MySQL",
+      "Project: Using a person’s credit-related information dataset, a machine-learning model was built to classify the credit score.",
+    ],
+    button: {
+      href: Certificate_Data_Scientist_Viktoriya_Voronchuk,
+      text: "Download Certificate",
+      icon: "fa fa-file-pdf-o",
+      download: "Certificate_Data_Scientist_Viktoriya_Voronchuk.pdf",
+    },
+  },
+  {
+    id: 5,
+    src: Education_Israel_Tech_Challenge_ITC,
+    href: "https://www.itc.tech/",
+    company: "Israel Tech Challenge",
+    location: "Israel",
+    date: "Oct 2021 – Dec 2021",
+    position: "Data-Analytics- & SQL-Course",
+    details: [
+      "Data Modeling",
+      "Mastering SQL",
+      "Business Intelligence",
+      "Dashboarding and visualization insights using Power BI",
+    ],
+  },
+  {
+    id: 6,
+    src: Education_Belarusian_State_University,
+    href: "https://www.bsu.by/",
+    company: "Belarusian State University",
+    location: "Belarus",
+    date: "Sep 2016 – Jun 2020",
+    position: "Bachelor of Economics with Specialization in Finance and Credit",
+    details: [
+      "Study, acquisition, and management of money and investments.",
+      "The field includes banking, credit, debt, and capital markets activities, which are all driven by economic principles and practices.",
+    ],
+  },
+];

@@ -1,0 +1,25 @@
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border: 1px solid var(--black);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--black);
+  transition: all 0.3s ease;
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+.download-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.download-button i {
+  font-size: 18px;
+  margin-right: 0.5rem;
+}
