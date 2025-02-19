@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Viktoryia Varanchuk's Personal CV Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code for Viktoryia Varanchuk's personal CV website, built with React and deployed on Netlify.
 
-## Available Scripts
+## 🚀 Overview
 
-In the project directory, you can run:
+This website serves as Viktoryia's online CV and portfolio, showcasing her professional experience, education, and expertise. It's designed to provide a comprehensive view of her background and capabilities to potential employers or collaborators, with a focus on her journey in finance, data analysis, and business administration.
 
-### `npm start`
+## 🛠 Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces
+- [React Router](https://reactrouter.com/): For handling navigation and routing
+- [Netlify](https://www.netlify.com/): For continuous deployment and hosting
+- CSS3: For styling and responsive design
+- Font Awesome: For icons and visual elements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎨 Features
 
-### `npm test`
+- **Responsive Design:** Fully optimized for both desktop and mobile devices
+- **Component-Based Architecture:** Modular and maintainable code structure
+- **Clean Navigation:** Intuitive menu system with mobile-friendly hamburger menu
+- **PDF Downloads:** Downloadable CV and certificates
+- **Contact Integration:** Direct email and phone contact capabilities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💼 Content Sections
 
-### `npm run build`
+1. **Home:** Personal introduction and contact information
+2. **About Me:** Detailed biography and professional interests
+3. **Experience:** Comprehensive work history including:
+   - Financial Services at Swiss International Airlines
+   - Payroll Control at Papaya Global
+   - Financial Analysis at various companies
+4. **Education:** Academic background featuring:
+   - MBA from Bar-Ilan University
+   - German language certifications
+   - Data Science and Analytics courses
+5. **Expertise:** Skills overview including:
+   - Language proficiencies
+   - Technical competencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+.
+├── components/          # Reusable UI components
+├── data/               # Content and configuration files
+├── downloads/          # Downloadable resources
+├── images/            # Image assets
+├── pages/             # Main page components
+└── styles/            # CSS styling files
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Deployment
 
-### `npm run eject`
+- Continuous Deployment via Netlify
+- Automatic builds on push to main branch
+- Preview deployments for pull requests
+- Custom domain configuration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eea53f8f-eb63-48ad-b701-2e1dc6b99511/deploy-status)](https://app.netlify.com/sites/vv-cv-website/deploys)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔗 Live Site
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can view the live version of the CV at [https://vv-cv-website.netlify.app/](https://vv-cv-website.netlify.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📞 Contact
 
-## Learn More
+For job opportunities or collaborations, please reach out via:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Email: [vvoronchuk99@gmail.com](mailto:vvoronchuk99@gmail.com)
+- Phone: [+41 78 309 19 36](tel:+41783091936)
+- Location: Arbon, CH-9320
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 Note
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project serves as Viktoryia's personal website and CV. While the code is viewable for reference, it is customized for her personal use. Feel free to reach out if you have questions about her experience or background.
