@@ -11,8 +11,9 @@ export const Expertise = [
   {
     category: "IT & Programming",
     skills: [
-      { name: "SQL", details: ["MySQL", "MSSQL"] },
-      { name: "Microsoft Office" },
+      { name: "SQL", level: "Advanced", details: ["MySQL", "MSSQL"] },
+      { name: "Microsoft Office", level: "Advanced" },
+      { name: "SAP", level: "Beginner" },
     ],
   },
 ];

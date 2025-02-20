@@ -6,7 +6,7 @@ import Experience_Sberbank from "../images/Experience_Sberbank.png";
 
 export const Experience = [
   {
-    id: 1,
+    id: 0,
     src: swisslogo,
     href: "https://www.swiss.com/",
     company: "Swiss International Airlines AG",

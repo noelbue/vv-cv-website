@@ -74,3 +74,9 @@ For job opportunities or collaborations, please reach out via:
 ## 📝 Note
 
 This project serves as Viktoryia's personal website and CV. While the code is viewable for reference, it is customized for her personal use. Feel free to reach out if you have questions about her experience or background.
+
+## To Do's
+
+- German Language
+- Language Switcher
+- New Data

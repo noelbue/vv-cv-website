@@ -25,6 +25,7 @@ export const EducationItem = () => {
             </ul>
             <DownloadButton button={education.button} />
           </div>
+          <hr></hr>
         </div>
       ))}
     </>

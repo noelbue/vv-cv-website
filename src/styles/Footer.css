@@ -1,0 +1,40 @@
+.footer {
+  background-color: var(--white);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+  align-items: center;
+  height: 3rem;
+  max-width: 1375px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--black);
+  transition: 0.2s;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    font-size: 0.75rem;
+    padding: 0 1.5rem;
+  }
+}

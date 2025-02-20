@@ -19,6 +19,7 @@ export const Home = {
     {
       icon: "fa fa-location-arrow",
       text: "Arbon, CH-9320",
+      href: "https://www.google.com/maps/place/9320+Arbon/@47.515702,9.3998401,14z/data=!3m1!4b1!4m6!3m5!1s0x479b034b182ce0cf:0x636f223ad9679cf5!8m2!3d47.5140905!4d9.4268301!16zL20vMGczNjNk?entry=ttu&g_ep=EgoyMDI1MDIxOC4wIKXMDSoASAFQAw%3D%3D",
     },
   ],
   cv: {
