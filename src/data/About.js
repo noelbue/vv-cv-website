@@ -1,11 +1,11 @@
+import aboutme1 from "../images/about-me1.png";
+import aboutme2 from "../images/about-me2.png";
+
 export const About = [
   {
     title: "Let's take a closer look",
     content: "",
-    images: [
-      "https://vikavoronchuk.com/wp-content/uploads/2022/11/About-me_001.png",
-      "https://vikavoronchuk.com/wp-content/uploads/2022/11/About-me_002.png",
-    ],
+    images: [aboutme1, aboutme2],
   },
   {
     title: "My Biography & Education",
