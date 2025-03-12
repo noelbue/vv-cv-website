@@ -13,7 +13,14 @@ export const Experience = [
     location: "Zurich, Switzerland",
     date: "Feb 2025 – present",
     position: "Financial Services/Excellence Intern",
-    details: ["To come"],
+    details: [
+      "Assisted in designing and implementing new financial accounting processes and systems to enhance operational efficiency.",
+      "Supported the analysis and steering of accounts payable & receivable processes managed by shared service centers in Krakow, Manila, and Mexico.",
+      "Documented and illustrated financial processes to improve transparency and knowledge sharing.",
+      "Co-managed financial accounting initiatives and projects, contributing from planning to implementation.",
+      "Assisted in driving OKR (Objectives & Key Results) initiatives to enhance financial management methodologies.",
+      "Collaborated with cross-functional teams to develop best-in-class solutions for global financial accounting operations.",
+    ],
   },
   {
     id: 1,
