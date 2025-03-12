@@ -12,7 +12,7 @@ export const Experience = [
     company: "Swiss International Airlines AG",
     location: "Zurich, Switzerland",
     date: "Feb 2025 – present",
-    position: "Financial Services/Excellence Intern",
+    position: "Financial Accounting Excellence – Services Intern",
     details: [
       "Assisted in designing and implementing new financial accounting processes and systems to enhance operational efficiency.",
       "Supported the analysis and steering of accounts payable & receivable processes managed by shared service centers in Krakow, Manila, and Mexico.",

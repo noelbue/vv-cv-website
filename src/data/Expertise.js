@@ -13,7 +13,9 @@ export const Expertise = [
     skills: [
       { name: "SQL", level: "Advanced", details: ["MySQL", "MSSQL"] },
       { name: "Microsoft Office", level: "Advanced" },
-      { name: "SAP", level: "Beginner" },
+      { name: "SAP S/4HANA", level: "Beginner" },
+      { name: "Power BI", level: "Beginner" },
+      { name: "Camtasia", level: "Beginner" },
     ],
   },
 ];
