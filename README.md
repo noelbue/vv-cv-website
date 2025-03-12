@@ -61,14 +61,13 @@ This website serves as Viktoryia's online CV and portfolio, showcasing her profe
 
 ## 🔗 Live Site
 
-You can view the live version of the CV at [https://vv-cv-website.netlify.app/](https://vv-cv-website.netlify.app/)
+You can view the live version of the CV at [https://vikavoronchuk.com/](https://vikavoronchuk.com/)
 
 ## 📞 Contact
 
 For job opportunities or collaborations, please reach out via:
 
 - Email: [vvoronchuk99@gmail.com](mailto:vvoronchuk99@gmail.com)
-- Phone: [+41 78 309 19 36](tel:+41783091936)
 - Location: Arbon, CH-9320
 
 ## 📝 Note
