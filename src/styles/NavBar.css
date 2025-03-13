@@ -48,6 +48,7 @@
   background: none;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 .hamburger-button:hover {
