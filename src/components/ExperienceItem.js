@@ -1,6 +1,7 @@
 import React from "react";
 import { Experience } from "../data/Experience";
 import "../styles/ExperienceItem.css";
+import { DownloadButton } from "../components/DownloadButton";
 
 export const ExperienceItem = () => {
   return (
@@ -22,6 +23,7 @@ export const ExperienceItem = () => {
                 <li key={i}>{detail}</li>
               ))}
             </ul>
+            <DownloadButton button={experience.button} />
           </div>
           <hr></hr>
         </div>

@@ -11,10 +11,12 @@ export const Expertise = [
   {
     category: "IT & Programming",
     skills: [
-      { name: "SQL", level: "Intermediate", details: ["MySQL", "MSSQL"] },
       { name: "Microsoft Office", level: "Advanced" },
-      { name: "SAP S/4HANA", level: "Beginner" },
-      { name: "Power BI", level: "Beginner" },
+      { name: "Microsoft Power BI", level: "Intermediate" },
+      { name: "Microsoft Power Automate", level: "Intermediate" },
+      { name: "Microsoft Power Platform", level: "Beginner" },
+      { name: "SAP", level: "Intermediate", details: ["S/4HANA", "Fiori"] },
+      { name: "SQL", level: "Intermediate", details: ["MySQL", "MSSQL"] },
       { name: "Camtasia", level: "Intermediate" },
     ],
   },

@@ -3,6 +3,7 @@ import Papaya_Global_Logo from "../images/Papaya_Global_Logo.png";
 import Experience_QBO_Services_Ltd from "../images/Experience_QBO_Services_Ltd.png";
 import Experience_I_Know_First_Daily_Market_Forecast from "../images/Experience_I_Know_First_Daily_Market_Forecast.png";
 import Experience_Sberbank from "../images/Experience_Sberbank.png";
+import Certificate_VAVI_CitDevAutomationJunior from "../downloads/Certificate_VAVI_CitDevAutomationJunior.pdf";
 
 export const Experience = [
   {
@@ -20,7 +21,14 @@ export const Experience = [
       "Co-managed financial accounting initiatives and projects, contributing from planning to implementation.",
       "Assisted in driving OKR (Objectives & Key Results) initiatives to enhance financial management methodologies.",
       "Collaborated with cross-functional teams to develop best-in-class solutions for global financial accounting operations.",
+      "Worked with Power BI and Power Automate to create automated reports and email workflows, including data queries, JSON parsing, number formatting, and other data transformation tasks to support finance operations.",
     ],
+    button: {
+      href: Certificate_VAVI_CitDevAutomationJunior,
+      text: "Microsoft Power Platform Certificate",
+      icon: "fa fa-file-pdf-o",
+      download: "Certificate_VAVI_CitDevAutomationJunior.pdf",
+    },
   },
   {
     id: 1,
