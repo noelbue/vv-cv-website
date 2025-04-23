@@ -3,13 +3,54 @@ import Education_Belarusian_State_University from "../images/Education_Belarusia
 import Education_Israel_Tech_Challenge_ITC from "../images/Education_Israel_Tech_Challenge_ITC.png";
 import Education_TeachMeSkills from "../images/Education_TeachMeSkills.png";
 import goethe from "../images/goethe.png";
+import hds from "../images/hds.png";
 import GoetheCertificate_2 from "../downloads/Goethe-Certificate_2.pdf";
 import GoetheCertificate from "../downloads/Goethe-Certificate.pdf";
 import Certificate_Data_Scientist_Viktoriya_Voronchuk from "../downloads/Certificate_Data_Scientist_Viktoriya_Voronchuk.pdf";
+import HDS_A2 from "../downloads/HDS_German_Course_A2.pdf";
+import HDS_B1 from "../downloads/HDS_German_Course_B1_1.pdf";
 
 export const Education = [
   {
     id: 1,
+    src: hds,
+    href: "https://www.hds.ch/",
+    company: "HDS (Haus der Sprachen)",
+    location: "Romanshorn, Switzerland",
+    date: "Jan 2025 – Apr 2025",
+    position: "German Course B1",
+    details: [
+      "Attended German Language Course",
+      "Full scope of the course: 40 teaching units of 45 minutes",
+    ],
+    button: {
+      href: HDS_B1,
+      text: "Download Certificate",
+      icon: "fa fa-file-pdf-o",
+      download: "HDS_German_Course_A2.pdf",
+    },
+  },
+  {
+    id: 2,
+    src: hds,
+    href: "https://www.hds.ch/",
+    company: "HDS (Haus der Sprachen)",
+    location: "Romanshorn, Switzerland",
+    date: "Nov 2024 – Jan 2025",
+    position: "German Course A2",
+    details: [
+      "Attended German Language Course",
+      "Full scope of the course: 40 teaching units of 45 minutes",
+    ],
+    button: {
+      href: HDS_A2,
+      text: "Download Certificate",
+      icon: "fa fa-file-pdf-o",
+      download: "HDS_German_Course_A2.pdf",
+    },
+  },
+  {
+    id: 3,
     src: Education_BarIlan_University,
     href: "https://www.biu.ac.il/",
     company: "Bar-Ilan University",
@@ -30,7 +71,7 @@ export const Education = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     src: goethe,
     href: "https://www.goethe.de/",
     company: "Goethe Institut",
@@ -50,7 +91,7 @@ export const Education = [
     },
   },
   {
-    id: 3,
+    id: 5,
     src: goethe,
     href: "https://www.goethe.de/",
     company: "Goethe Institut",
@@ -70,7 +111,7 @@ export const Education = [
     },
   },
   {
-    id: 4,
+    id: 6,
     src: Education_TeachMeSkills,
     href: "https://teachmeskills.by/",
     company: "TeachMeSkills",
@@ -91,7 +132,7 @@ export const Education = [
     },
   },
   {
-    id: 5,
+    id: 7,
     src: Education_Israel_Tech_Challenge_ITC,
     href: "https://www.itc.tech/",
     company: "Israel Tech Challenge",
@@ -106,7 +147,7 @@ export const Education = [
     ],
   },
   {
-    id: 6,
+    id: 8,
     src: Education_Belarusian_State_University,
     href: "https://www.bsu.by/",
     company: "Belarusian State University",
