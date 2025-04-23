@@ -27,7 +27,7 @@ export const Education = [
       href: HDS_B1,
       text: "Download Certificate",
       icon: "fa fa-file-pdf-o",
-      download: "HDS_German_Course_A2.pdf",
+      download: "HDS_German_Course_B1_1.pdf",
     },
   },
   {
