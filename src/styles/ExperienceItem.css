@@ -56,6 +56,11 @@
   margin: 2rem 0;
 }
 
+.ExperienceImg:hover {
+  transform: scale(1.08);
+  transition: transform 0.3s ease;
+}
+
 @media screen and (max-width: 768px) {
   .ExperienceItem {
     grid-template-columns: 1fr;

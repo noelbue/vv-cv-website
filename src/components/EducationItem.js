@@ -10,7 +10,11 @@ export const EducationItem = () => {
         <div className="ExperienceItem" key={education.id}>
           <div className="ExperienceCompany">
             <a href={education.href} target="_blank" rel="noreferrer">
-              <img src={education.src} alt={education.company} />
+              <img
+                className="ExperienceImg"
+                src={education.src}
+                alt={education.company}
+              />
             </a>
             <h3>{education.company}</h3>
             <p>{education.location}</p>
