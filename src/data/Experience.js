@@ -79,7 +79,7 @@ export const Experience = [
     href: "https://www.sberbank.com/index",
     company: "Sberbank",
     location: "Minsk, Belarus",
-    date: "Nov 2020 – Apr 2021",
+    date: "Jun 2019 – Apr 2020",
     position: "Financial Analyst Intern",
     details: [
       "Analysing the composition, structure, and dynamics of the financial results and indicators of profitability of the bank over the past 3 years",
