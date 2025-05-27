@@ -78,7 +78,7 @@ export const Experience = [
     src: Experience_Sberbank,
     href: "https://www.sberbank.com/index",
     company: "Sberbank",
-    location: "Tel Aviv, Israel",
+    location: "Minsk, Belarus",
     date: "Nov 2020 – Apr 2021",
     position: "Financial Analyst Intern",
     details: [
