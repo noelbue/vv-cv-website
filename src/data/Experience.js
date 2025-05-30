@@ -36,8 +36,8 @@ export const Experience = [
     href: "https://www.papayaglobal.com/",
     company: "Papaya Global",
     location: "Herzliya, Israel",
-    date: "Aug 2023 – Jul 2024",
-    position: "Payroll Journal Entry Controller",
+    date: "Dec 2021 – Jul 2024",
+    position: "Customer Operations & Payroll Journal Entry Controller",
     details: [
       "Conducted comprehensive discussions with clients to understand their specific requirements for journal entry reports",
       "Successfully implemented customized journal entry reports to meet each client’s needs, ensuring accuracy and compliance",
