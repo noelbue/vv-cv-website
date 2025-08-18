@@ -1,18 +1,39 @@
 import swisslogo from "../images/swiss-logo.svg";
+import HolyFashionGroup from "../images/Holy-Fashion-Group_Logo.png";
 import Papaya_Global_Logo from "../images/Papaya_Global_Logo.png";
 import Experience_QBO_Services_Ltd from "../images/Experience_QBO_Services_Ltd.png";
 import Experience_I_Know_First_Daily_Market_Forecast from "../images/Experience_I_Know_First_Daily_Market_Forecast.png";
 import Experience_Sberbank from "../images/Experience_Sberbank.png";
 import Certificate_VAVI_CitDevAutomationJunior from "../downloads/Certificate_VAVI_CitDevAutomationJunior.pdf";
+import Reference_Letter_SWISS from "../downloads/VAVI_54387_Varanchuk_Viktoryia_Letter_of_reference.pdf";
+import Reference_Letter_Papaya_Global from "../downloads/Reference_Papaya_Global.pdf";
+import Reference_Letter_QBO_Services from "../downloads/Reference_QBO_Services_Ltd.pdf";
 
 export const Experience = [
   {
     id: 0,
+    src: HolyFashionGroup,
+    href: "https://www.holyfashiongroup.de/",
+    company: "Holy Fashion Group / Strellson AG",
+    location: "Kreuzlingen, Switzerland",
+    date: "Aug 2025 – present",
+    position: "Finance Intern",
+    details: [
+      "Actively involved in daily finance tasks such as credit rating assessments, intercompany postings, and invoice processing.",
+      "Assisted in the design and implementation of finance-related process optimization projects within an international fashion and lifestyle company.",
+      "Contributed to the documentation and improvement of financial workflows to support transparency and process efficiency.",
+      "Gained hands-on experience with SAP, MS Excel, and financial systems used across shared service centers.",
+      "Worked cross-functionally with various teams and departments to support the continuous improvement of accounting practices.",
+      "Engaged in a structured onboarding process and internal trainings as part of the internship development program.",
+    ],
+  },
+  {
+    id: 1,
     src: swisslogo,
     href: "https://www.swiss.com/",
     company: "Swiss International Airlines AG",
     location: "Zurich, Switzerland",
-    date: "Feb 2025 – present",
+    date: "Feb 2025 – Aug 2025",
     position: "Financial Accounting Excellence – Services Intern",
     details: [
       "Assisted in designing and implementing new financial accounting processes and systems to enhance operational efficiency.",
@@ -29,9 +50,15 @@ export const Experience = [
       icon: "fa fa-file-pdf-o",
       download: "Certificate_VAVI_CitDevAutomationJunior.pdf",
     },
+    button2: {
+      href: Reference_Letter_SWISS,
+      text: "Reference Letter",
+      icon: "fa fa-file-pdf-o",
+      download: "VAVI_54387_Varanchuk_Viktoryia_Letter_of_reference.pdf",
+    },
   },
   {
-    id: 1,
+    id: 2,
     src: Papaya_Global_Logo,
     href: "https://www.papayaglobal.com/",
     company: "Papaya Global",
@@ -43,9 +70,15 @@ export const Experience = [
       "Successfully implemented customized journal entry reports to meet each client’s needs, ensuring accuracy and compliance",
       "Developed, improved, and issued monthly financial reports in a timely manner, providing clients with valuable insight for decision making.",
     ],
+    button: {
+      href: Reference_Letter_Papaya_Global,
+      text: "Reference Letter",
+      icon: "fa fa-file-pdf-o",
+      download: "Reference_Papaya_Global.pdf",
+    },
   },
   {
-    id: 2,
+    id: 3,
     src: Experience_QBO_Services_Ltd,
     href: "https://www.linkedin.com/company/q.b.o-services-ltd/about/",
     company: "Q.B.O Services Ltd",
@@ -59,9 +92,15 @@ export const Experience = [
       "Searching for new attractive market assets and setting initial configuration Producing market notifications",
       "Implementing and testing new features.",
     ],
+    button: {
+      href: Reference_Letter_QBO_Services,
+      text: "Reference Letter",
+      icon: "fa fa-file-pdf-o",
+      download: "Reference_QBO_Services_Ltd.pdf",
+    },
   },
   {
-    id: 3,
+    id: 4,
     src: Experience_I_Know_First_Daily_Market_Forecast,
     href: "https://iknowfirst.com/",
     company: "I Know First: Daily Market Forecast",
@@ -74,7 +113,7 @@ export const Experience = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     src: Experience_Sberbank,
     href: "https://www.sberbank.com/index",
     company: "Sberbank",

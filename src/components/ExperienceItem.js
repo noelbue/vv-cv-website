@@ -28,6 +28,7 @@ export const ExperienceItem = () => {
               ))}
             </ul>
             <DownloadButton button={experience.button} />
+            <DownloadButton button={experience.button2} />
           </div>
           <hr></hr>
         </div>
