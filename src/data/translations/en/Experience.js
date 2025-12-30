@@ -1,13 +1,13 @@
-import swisslogo from "../images/swiss-logo.svg";
-import HolyFashionGroup from "../images/Holy-Fashion-Group_Logo.png";
-import Papaya_Global_Logo from "../images/Papaya_Global_Logo.png";
-import Experience_QBO_Services_Ltd from "../images/Experience_QBO_Services_Ltd.png";
-import Experience_I_Know_First_Daily_Market_Forecast from "../images/Experience_I_Know_First_Daily_Market_Forecast.png";
-import Experience_Sberbank from "../images/Experience_Sberbank.png";
-import Certificate_VAVI_CitDevAutomationJunior from "../downloads/Certificate_VAVI_CitDevAutomationJunior.pdf";
-import Reference_Letter_SWISS from "../downloads/VAVI_54387_Varanchuk_Viktoryia_Letter_of_reference.pdf";
-import Reference_Letter_Papaya_Global from "../downloads/Reference_Papaya_Global.pdf";
-import Reference_Letter_QBO_Services from "../downloads/Reference_QBO_Services_Ltd.pdf";
+import swisslogo from "../../../images/swiss-logo.svg";
+import HolyFashionGroup from "../../../images/Holy-Fashion-Group_Logo.png";
+import Papaya_Global_Logo from "../../../images/Papaya_Global_Logo.png";
+import Experience_QBO_Services_Ltd from "../../../images/Experience_QBO_Services_Ltd.png";
+import Experience_I_Know_First_Daily_Market_Forecast from "../../../images/Experience_I_Know_First_Daily_Market_Forecast.png";
+import Experience_Sberbank from "../../../images/Experience_Sberbank.png";
+import Certificate_VAVI_CitDevAutomationJunior from "../../../downloads/Certificate_VAVI_CitDevAutomationJunior.pdf";
+import Reference_Letter_SWISS from "../../../downloads/VAVI_54387_Varanchuk_Viktoryia_Letter_of_reference.pdf";
+import Reference_Letter_Papaya_Global from "../../../downloads/Reference_Papaya_Global.pdf";
+import Reference_Letter_QBO_Services from "../../../downloads/Reference_QBO_Services_Ltd.pdf";
 
 export const Experience = [
   {

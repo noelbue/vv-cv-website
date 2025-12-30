@@ -1,14 +1,14 @@
-import Education_BarIlan_University from "../images/Education_Bar-Ilan_University.png";
-import Education_Belarusian_State_University from "../images/Education_Belarusian_State_University.png";
-import Education_Israel_Tech_Challenge_ITC from "../images/Education_Israel_Tech_Challenge_ITC.png";
-import Education_TeachMeSkills from "../images/Education_TeachMeSkills.png";
-import goethe from "../images/goethe.png";
-import hds from "../images/hds.png";
-import GoetheCertificate_2 from "../downloads/Goethe-Certificate_2.pdf";
-import GoetheCertificate from "../downloads/Goethe-Certificate.pdf";
-import Certificate_Data_Scientist_Viktoriya_Voronchuk from "../downloads/Certificate_Data_Scientist_Viktoriya_Voronchuk.pdf";
-import HDS_A2 from "../downloads/HDS_German_Course_A2.pdf";
-import HDS_B1 from "../downloads/HDS_German_Course_B1_1.pdf";
+import Education_BarIlan_University from "../../../images/Education_Bar-Ilan_University.png";
+import Education_Belarusian_State_University from "../../../images/Education_Belarusian_State_University.png";
+import Education_Israel_Tech_Challenge_ITC from "../../../images/Education_Israel_Tech_Challenge_ITC.png";
+import Education_TeachMeSkills from "../../../images/Education_TeachMeSkills.png";
+import goethe from "../../../images/goethe.png";
+import hds from "../../../images/hds.png";
+import GoetheCertificate_2 from "../../../downloads/Goethe-Certificate_2.pdf";
+import GoetheCertificate from "../../../downloads/Goethe-Certificate.pdf";
+import Certificate_Data_Scientist_Viktoriya_Voronchuk from "../../../downloads/Certificate_Data_Scientist_Viktoriya_Voronchuk.pdf";
+import HDS_A2 from "../../../downloads/HDS_German_Course_A2.pdf";
+import HDS_B1 from "../../../downloads/HDS_German_Course_B1_1.pdf";
 
 export const Education = [
   {

@@ -1,5 +1,5 @@
-import Portrait from "../images/Portrait.jpeg";
-import CV_PDF from "../downloads/CV_Viktoryia_Varanchuk_EN.pdf";
+import Portrait from "../../../images/Portrait.jpeg";
+import CV_PDF from "../../../downloads/CV_Viktoryia_Varanchuk_EN.pdf";
 
 export const Home = {
   name: "Viktoryia Varanchuk",
@@ -18,8 +18,8 @@ export const Home = {
     },
     {
       icon: "fa fa-location-arrow",
-      text: "Arbon, CH-9320",
-      href: "https://www.google.com/maps/place/9320+Arbon/@47.515702,9.3998401,14z/data=!3m1!4b1!4m6!3m5!1s0x479b034b182ce0cf:0x636f223ad9679cf5!8m2!3d47.5140905!4d9.4268301!16zL20vMGczNjNk?entry=ttu&g_ep=EgoyMDI1MDIxOC4wIKXMDSoASAFQAw%3D%3D",
+      text: "Horn, CH-9326",
+      href: "http://google.com/maps/place/9326+Horn/@47.4927939,9.4524314,3840m/data=!3m2!1e3!4b1!4m6!3m5!1s0x479b1b5b2077d975:0x7b5963801028344e!8m2!3d47.4949526!4d9.4627045!16zL20vMGczNjFn?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D",
     },
     {
       icon: "fa fa-linkedin-square",
@@ -31,6 +31,6 @@ export const Home = {
     text: "Download CV as PDF",
     href: CV_PDF,
     icon: "fa fa-file-pdf-o",
-    download: "CV_Viktoryia_Varonchuk_EN.pdf",
+    download: "CV_Viktoryia_Varanchuk_EN.pdf",
   },
 };

@@ -1,9 +1,13 @@
 import React from "react";
-import { Experience } from "../data/Experience";
+import { useLanguage } from "../context/LanguageContext";
+import { getTranslations } from "../data/translations/index";
 import "../styles/ExperienceItem.css";
 import { DownloadButton } from "../components/DownloadButton";
 
 export const ExperienceItem = () => {
+  const { language } = useLanguage();
+  const { Experience } = getTranslations(language);
+
   return (
     <>
       {Experience.map((experience) => (

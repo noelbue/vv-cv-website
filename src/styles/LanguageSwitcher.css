@@ -1,0 +1,43 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: color 0.2s ease;
+  font-family: inherit;
+}
+
+.lang-btn:hover {
+  color: #333;
+}
+
+.lang-btn.active {
+  color: #000;
+  font-weight: 700;
+}
+
+.separator {
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .language-switcher {
+    gap: 6px;
+  }
+
+  .lang-btn {
+    font-size: 13px;
+    padding: 3px 6px;
+  }
+}

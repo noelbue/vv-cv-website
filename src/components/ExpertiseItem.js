@@ -1,8 +1,12 @@
 import React from "react";
-import { Expertise } from "../data/Expertise";
+import { useLanguage } from "../context/LanguageContext";
+import { getTranslations } from "../data/translations/index";
 import "../styles/ExpertiseItem.css";
 
 export const ExpertiseItem = () => {
+  const { language } = useLanguage();
+  const { Expertise } = getTranslations(language);
+
   return (
     <div className="expertise-section">
       {Expertise.map((category, index) => (

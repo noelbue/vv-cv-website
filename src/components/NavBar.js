@@ -1,10 +1,14 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { NavLinks } from "../data/NavLinks";
+import { useLanguage } from "../context/LanguageContext";
+import { getTranslations } from "../data/translations/index";
+import LanguageSwitcher from "./LanguageSwitcher";
 import "../styles/NavBar.css";
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { language } = useLanguage();
+  const { NavLinks } = getTranslations(language);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -15,7 +19,7 @@ export const NavBar = () => {
       <div className="navbar-container">
         <div className="navbar-content">
           <div className="logo">
-            <NavLink to="/" className="nav-logo">
+            <NavLink to={language === "de" ? "/de" : "/"} className="nav-logo">
               Viktoryia
               <br />
               Varanchuk
@@ -30,11 +34,15 @@ export const NavBar = () => {
                   className={({ isActive }) =>
                     isActive ? "nav-link active" : "nav-link"
                   }
+                  end
                 >
                   {link.label}
                 </NavLink>
               </li>
             ))}
+            <li>
+              <LanguageSwitcher />
+            </li>
           </ul>
 
           <button
@@ -84,10 +92,14 @@ export const NavBar = () => {
                 isActive ? "nav-link active" : "nav-link"
               }
               onClick={() => setIsOpen(false)}
+              end
             >
               {link.label}
             </NavLink>
           ))}
+          <div className="mobile-language-switcher">
+            <LanguageSwitcher />
+          </div>
         </div>
       </div>
     </nav>

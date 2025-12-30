@@ -1,8 +1,12 @@
 import React from "react";
-import { About } from "../data/About";
+import { useLanguage } from "../context/LanguageContext";
+import { getTranslations } from "../data/translations/index";
 import "../styles/AboutItem.css";
 
 export const AboutItem = () => {
+  const { language } = useLanguage();
+  const { About } = getTranslations(language);
+
   return (
     <div className="AboutItem">
       <div className="about-container">
