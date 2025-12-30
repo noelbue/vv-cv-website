@@ -2,7 +2,7 @@ export const Expertise = [
   {
     category: "Languages",
     skills: [
-      { name: "German", level: "A2" },
+      { name: "German", level: "B1" },
       { name: "English", level: "C1" },
       { name: "Russian", level: "C2" },
       { name: "Hebrew", level: "B1" },
