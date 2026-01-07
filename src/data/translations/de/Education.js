@@ -17,6 +17,19 @@ export const Education = [
     src: hds,
     href: "https://www.hds.ch/",
     company: "HDS (Haus der Sprachen)",
+    location: "Romanshorn, Switzerland",
+    date: "Nov. 2025 – Feb. 2026",
+    position: "Deutschkurs Course B2",
+    details: [
+      "Teilnahme am Deutschkurs",
+      "Gesamtumfang des Kurses: 40 Unterrichtseinheiten à 45 Minuten",
+    ],
+  },
+  {
+    id: 2,
+    src: hds,
+    href: "https://www.hds.ch/",
+    company: "HDS (Haus der Sprachen)",
     location: "Romanshorn, Schweiz",
     date: "Jan. 2025 – Apr. 2025",
     position: "Deutschkurs B1",
@@ -32,7 +45,7 @@ export const Education = [
     },
   },
   {
-    id: 2,
+    id: 3,
     src: hds,
     href: "https://www.hds.ch/",
     company: "HDS (Haus der Sprachen)",
@@ -51,7 +64,7 @@ export const Education = [
     },
   },
   {
-    id: 3,
+    id: 4,
     src: Education_BarIlan_University,
     href: "https://www.biu.ac.il/",
     company: "Bar-Ilan Universität",
@@ -73,7 +86,7 @@ export const Education = [
     },
   },
   {
-    id: 4,
+    id: 5,
     src: goethe,
     href: "https://www.goethe.de/",
     company: "Goethe Institut",
@@ -93,7 +106,7 @@ export const Education = [
     },
   },
   {
-    id: 5,
+    id: 6,
     src: goethe,
     href: "https://www.goethe.de/",
     company: "Goethe Institut",
@@ -113,7 +126,7 @@ export const Education = [
     },
   },
   {
-    id: 6,
+    id: 7,
     src: Education_TeachMeSkills,
     href: "https://teachmeskills.by/",
     company: "TeachMeSkills",
@@ -134,7 +147,7 @@ export const Education = [
     },
   },
   {
-    id: 7,
+    id: 8,
     src: Education_Israel_Tech_Challenge_ITC,
     href: "https://www.itc.tech/",
     company: "Israel Tech Challenge",
@@ -149,7 +162,7 @@ export const Education = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     src: Education_Belarusian_State_University,
     href: "https://www.bsu.by/",
     company: "Staatliche Universität Belarus",
