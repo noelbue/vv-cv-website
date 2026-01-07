@@ -9,6 +9,7 @@ import GoetheCertificate from "../../../downloads/Goethe-Certificate.pdf";
 import Certificate_Data_Scientist_Viktoriya_Voronchuk from "../../../downloads/Certificate_Data_Scientist_Viktoriya_Voronchuk.pdf";
 import HDS_A2 from "../../../downloads/HDS_German_Course_A2.pdf";
 import HDS_B1 from "../../../downloads/HDS_German_Course_B1_1.pdf";
+import BarIlanCertificate from "../../../downloads/MBA-Certificate_Viktoryia_Varanchuk.pdf";
 
 export const Education = [
   {
@@ -64,6 +65,12 @@ export const Education = [
       "Teilnahme an globalen Wirtschaftssimulationen und strategischen Managementprojekten",
       "Abschlussnote: 88/100 (5,3/6 gemäss Schweizer System)",
     ],
+    button: {
+      href: BarIlanCertificate,
+      text: "Diplom herunterladen",
+      icon: "fa fa-file-pdf-o",
+      download: "MBA-Certificate_Viktoryia_Varanchuk.pdf",
+    },
   },
   {
     id: 4,
