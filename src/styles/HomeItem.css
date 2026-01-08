@@ -1,27 +1,27 @@
 .home-container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   position: relative;
 }
 
 .home-content {
   background: var(--white);
-  padding: 2rem 2rem 2rem 12rem;
-  width: 85%;
+  padding: 2.67rem 2.67rem 2.67rem 16rem;
+  width: 60%;
   position: relative;
   z-index: 1;
-  margin-left: 8%;
-  margin-top: 5rem;
-  margin-bottom: 6rem;
+  margin-left: 12%;
+  margin-top: 6.67rem;
+  margin-bottom: 8rem;
 }
 
 .home-content li {
   list-style: none;
-  margin-top: 0.75rem;
+  margin-top: 1rem;
 }
 
 .home-content li i {
-  margin-right: 0.5rem;
+  margin-right: 0.67rem;
 }
 
 .home-content li a {
@@ -37,12 +37,12 @@
 
 .home-images {
   position: absolute;
-  left: -4rem;
-  top: -3rem;
+  left: -2.33rem;
+  top: -4.33rem;
   width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.67rem;
   z-index: 2;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .home-section {
-  margin-bottom: 2rem;
+  margin-bottom: 2.67rem;
 }
 
 .home-section:last-child {
@@ -59,19 +59,23 @@
 }
 
 .home-section h2 {
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
+  font-size: 2.33rem;
+  margin-bottom: 1.33rem;
+}
+
+.home-content h2 {
+  font-size: 2.33rem;
 }
 
 .home-content p {
-  font-size: 1.25rem;
+  font-size: 1.67rem;
   line-height: 1.6;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   color: #333;
 }
 
 .home-content ul {
-  margin-bottom: 1rem;
+  margin-bottom: 1.33rem;
 }
 
 @media (max-width: 1024px) {
