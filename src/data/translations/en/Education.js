@@ -10,6 +10,7 @@ import Certificate_Data_Scientist_Viktoriya_Voronchuk from "../../../downloads/C
 import HDS_A2 from "../../../downloads/HDS_German_Course_A2.pdf";
 import HDS_B1 from "../../../downloads/HDS_German_Course_B1_1.pdf";
 import BarIlanCertificate from "../../../downloads/MBA-Certificate_Viktoryia_Varanchuk.pdf";
+import BelarusianStateUniversityCertificate from "../../../downloads/Bachelor-Certificate_Viktoryia_Varanchuk.pdf";
 
 export const Education = [
   {
@@ -176,5 +177,11 @@ export const Education = [
       "Participation in international finance competitions for students",
       "Graduated with honors (Cum Laude), grade: 9.5/10 (5.7/6 according to the Swiss system)",
     ],
+    button: {
+      href: BelarusianStateUniversityCertificate,
+      text: "Download Diploma",
+      icon: "fa fa-file-pdf-o",
+      download: "Bachelor-Certificate_Viktoryia_Varanchuk.pdf",
+    },
   },
 ];
