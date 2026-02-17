@@ -8,15 +8,35 @@ import Certificate_VAVI_CitDevAutomationJunior from "../../../downloads/Certific
 import Reference_Letter_SWISS from "../../../downloads/VAVI_54387_Varanchuk_Viktoryia_Letter_of_reference.pdf";
 import Reference_Letter_Papaya_Global from "../../../downloads/Reference_Papaya_Global.pdf";
 import Reference_Letter_QBO_Services from "../../../downloads/Reference_QBO_Services_Ltd.pdf";
+import Arbeitszeugnis_Viktoryia_Varanchuk_HFG from "../../../downloads/Arbeitszeugnis_Viktoryia_Varanchuk_HFG.pdf";
+import RingierLogo from "../../../images/Ringier_Logo.png";
 
 export const Experience = [
   {
     id: 0,
+    src: RingierLogo,
+    href: "https://www.ringier.com/en/",
+    company: "Ringier AG",
+    location: "Zurich, Switzerland",
+    date: "Feb 2026 – present",
+    position: "Junior Controller International Media / Sports Media",
+    details: [
+      "Responsible for reporting, budgeting, and forecasting, including all preparatory closing work for international media and sports media units.",
+      "Analysis and commentary on monthly, quarterly, and annual financial statements with detailed budget vs. actual comparisons for units in over 15 countries.",
+      "Conducting in-depth analyses of international business units to support strategic decisions by group management.",
+      "Performing ad-hoc analyses and actively participating in cross-functional finance projects.",
+      "Continuously advancing financial processes and systems to increase efficiency and transparency.",
+      "Acting as a financial sparring partner for group management and local management of international units.",
+      "Working with SAP, Power BI, and Excel to create management reports and dashboards for the international media and sports media portfolio.",
+    ],
+  },
+  {
+    id: 1,
     src: HolyFashionGroup,
     href: "https://www.holyfashiongroup.de/",
     company: "Holy Fashion Group / Strellson AG",
     location: "Kreuzlingen, Switzerland",
-    date: "Aug 2025 – present",
+    date: "Aug 2025 – Feb 2026",
     position: "Intern in the Finance Team",
     details: [
       "Support with monthly and annual financial statements for several group companies, ensuring correct accrual accounting and complete documentation.",
@@ -27,9 +47,15 @@ export const Experience = [
       "Working with SAP S/4HANA, SAP Analytics Cloud, and Excel to analyze financial data and ensure reporting accuracy.",
       "Interdisciplinary collaboration with various teams and departments to continuously improve accounting processes.",
     ],
+    button: {
+      href: Arbeitszeugnis_Viktoryia_Varanchuk_HFG,
+      text: "Reference Letter",
+      icon: "fa fa-file-pdf-o",
+      download: "Arbeitszeugnis_Viktoryia_Varanchuk_HFG.pdf",
+    },
   },
   {
-    id: 1,
+    id: 2,
     src: swisslogo,
     href: "https://www.swiss.com/",
     company: "Swiss International Airlines AG",
@@ -59,7 +85,7 @@ export const Experience = [
     },
   },
   {
-    id: 2,
+    id: 3,
     src: Papaya_Global_Logo,
     href: "https://www.papayaglobal.com/",
     company: "Papaya Global",
@@ -81,7 +107,7 @@ export const Experience = [
     },
   },
   {
-    id: 3,
+    id: 4,
     src: Experience_QBO_Services_Ltd,
     href: "https://www.linkedin.com/company/q.b.o-services-ltd/about/",
     company: "Q.B.O Services Ltd",
@@ -103,7 +129,7 @@ export const Experience = [
     },
   },
   {
-    id: 4,
+    id: 5,
     src: Experience_I_Know_First_Daily_Market_Forecast,
     href: "https://iknowfirst.com/",
     company: "I Know First: Daily Market Forecast",
@@ -118,7 +144,7 @@ export const Experience = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     src: Experience_Sberbank,
     href: "https://www.sberbank.com/index",
     company: "BPS-Sberbank",

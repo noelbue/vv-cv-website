@@ -8,15 +8,35 @@ import Certificate_VAVI_CitDevAutomationJunior from "../../../downloads/Certific
 import Reference_Letter_SWISS from "../../../downloads/VAVI_54387_Varanchuk_Viktoryia_Letter_of_reference.pdf";
 import Reference_Letter_Papaya_Global from "../../../downloads/Reference_Papaya_Global.pdf";
 import Reference_Letter_QBO_Services from "../../../downloads/Reference_QBO_Services_Ltd.pdf";
+import Arbeitszeugnis_Viktoryia_Varanchuk_HFG from "../../../downloads/Arbeitszeugnis_Viktoryia_Varanchuk_HFG.pdf";
+import RingierLogo from "../../../images/Ringier_Logo.png";
 
 export const Experience = [
   {
     id: 0,
+    src: RingierLogo,
+    href: "https://www.ringier.com/de/",
+    company: "Ringier AG",
+    location: "Zürich, Schweiz",
+    date: "Feb. 2026 – jetzt",
+    position: "Junior Controllerin International Media / Sports Media",
+    details: [
+      "Verantwortung für das Reporting, die Budgetierung sowie die Forecasts inklusive aller vorbereitenden Abschlussarbeiten für internationale Medien- und Sportmedieneinheiten.",
+      "Analyse und Kommentierung von Monats-, Quartals- und Jahresabschlüssen mit fundierten Soll-/Ist-Vergleichen für Einheiten in über 15 Ländern.",
+      "Erstellung tiefgehender Analysen der internationalen Geschäftseinheiten zur Unterstützung strategischer Entscheidungen der Gruppen-Geschäftsleitung.",
+      "Durchführung von Ad-hoc-Analysen und aktive Mitwirkung in bereichsübergreifenden Finanzprojekten.",
+      "Kontinuierliche Weiterentwicklung der Finanzprozesse und -systeme zur Steigerung der Effizienz und Transparenz.",
+      "Funktion als finanzieller Sparringspartner für die Gruppen-Geschäftsleitung und das lokale Management internationaler Einheiten.",
+      "Arbeit mit SAP, Power BI und Excel zur Erstellung von Management-Reports und Dashboards für das internationale Media- und Sports-Media-Portfolio.",
+    ],
+  },
+  {
+    id: 1,
     src: HolyFashionGroup,
     href: "https://www.holyfashiongroup.de/",
     company: "Holy Fashion Group / Strellson AG",
     location: "Kreuzlingen, Schweiz",
-    date: "Aug. 2025 – jetzt",
+    date: "Aug. 2025 – Feb. 2026",
     position: "Praktikantin im Finanzteam",
     details: [
       "Unterstützung bei Monats- und Jahresabschlüssen für mehrere Konzerngesellschaften unter Sicherstellung einer korrekten periodengerechten Abgrenzung und vollständigen Dokumentation.",
@@ -27,9 +47,15 @@ export const Experience = [
       "Arbeit mit SAP S/4HANA, SAP Analytics Cloud und Excel zur Analyse finanzieller Daten und Sicherstellung der Reporting-Genauigkeit.",
       "Interdisziplinäre Zusammenarbeit mit verschiedenen Teams und Abteilungen zur kontinuierlichen Verbesserung der Buchhaltungsprozesse.",
     ],
+    button: {
+      href: Arbeitszeugnis_Viktoryia_Varanchuk_HFG,
+      text: "Arbeitszeugnis",
+      icon: "fa fa-file-pdf-o",
+      download: "Arbeitszeugnis_Viktoryia_Varanchuk_HFG.pdf",
+    },
   },
   {
-    id: 1,
+    id: 2,
     src: swisslogo,
     href: "https://www.swiss.com/",
     company: "Swiss International Airlines AG",
@@ -53,13 +79,13 @@ export const Experience = [
     },
     button2: {
       href: Reference_Letter_SWISS,
-      text: "Referenzschreiben",
+      text: "Arbeitszeugnis",
       icon: "fa fa-file-pdf-o",
       download: "VAVI_54387_Varanchuk_Viktoryia_Letter_of_reference.pdf",
     },
   },
   {
-    id: 2,
+    id: 3,
     src: Papaya_Global_Logo,
     href: "https://www.papayaglobal.com/",
     company: "Papaya Global",
@@ -75,13 +101,13 @@ export const Experience = [
     ],
     button: {
       href: Reference_Letter_Papaya_Global,
-      text: "Referenzschreiben",
+      text: "Arbeitszeugnis",
       icon: "fa fa-file-pdf-o",
       download: "Reference_Papaya_Global.pdf",
     },
   },
   {
-    id: 3,
+    id: 4,
     src: Experience_QBO_Services_Ltd,
     href: "https://www.linkedin.com/company/q.b.o-services-ltd/about/",
     company: "Q.B.O Services Ltd",
@@ -97,13 +123,13 @@ export const Experience = [
     ],
     button: {
       href: Reference_Letter_QBO_Services,
-      text: "Referenzschreiben",
+      text: "Arbeitszeugnis",
       icon: "fa fa-file-pdf-o",
       download: "Reference_QBO_Services_Ltd.pdf",
     },
   },
   {
-    id: 4,
+    id: 5,
     src: Experience_I_Know_First_Daily_Market_Forecast,
     href: "https://iknowfirst.com/",
     company: "I Know First: Daily Market Forecast",
@@ -118,7 +144,7 @@ export const Experience = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     src: Experience_Sberbank,
     href: "https://www.sberbank.com/index",
     company: "BPS-Sberbank",
